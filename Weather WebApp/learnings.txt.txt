@@ -1,0 +1,10 @@
+Better HTML, CSS --> Systematic, flow and proper use of all the HTML tags and CSS property.
+Use of Font Awesome --> got to know about font awesome website and it's working. Use for variety of icons.
+Flexbox --> For responsiveness and easy layout making.
+
+Better command on DOM Manipulation --> Selecting proper objects.
+Use of addEventListener --> "click" and "keydown" events.
+
+Weather API --> Used of weather API to fetch current weather details according to city search by the user.
+https://openweathermap.org/current --> Link for the API
+Learned how to fetch and change the HTML according to response got from the API.

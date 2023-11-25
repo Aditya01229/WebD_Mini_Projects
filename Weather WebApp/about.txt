@@ -1,0 +1,2 @@
+A simple WebApp, giving Weather Status of the City searched by the user working on a API by OpenWeather.
+Easy and Friendly Interface.

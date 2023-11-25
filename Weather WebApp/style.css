@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arvo", cursive;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+::placeholder {
+    color: black;
+    font-size: 0.9rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #17191a
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 430px;
+    height: 500px; 
+    align-items: center;
+    gap: 10px;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
+    padding: 20px;
+    border-radius: 10px;
+    border: solid white 1px;
+    
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.search-bar > input {
+    height: 40px;
+    width: 70%;
+    border-radius: 50px;
+    padding-left: 10px;
+    border:none;
+    background-color: rgb(217, 232, 236);
+    font-size: 0.9rem;
+
+}
+.search-bar > button {
+    background-color: rgb(217, 232, 236);
+    border-radius: 50%;
+    width: 41px;
+}
+
+.airStatus {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.airStatus > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.upper > img {
+    height: 30px;
+}
+
+h1 {
+    font-size: 3rem
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.lower > p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.upper > p {
+    font-weight: bold;
+    font-size: 1.3rem;
+}

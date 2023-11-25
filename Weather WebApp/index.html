@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather WebApp</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="search-bar">
+        <input type="text" placeholder="Search City" />
+        <button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+      </div>
+      <div id="weatherStatusImage">
+        <img src="./images/snow.png" alt="IMG" />
+      </div>
+      <h1 id="temparature">28<span>&deg</span>c</h1>
+      <h2 id="cityName">Aurangabad</h2>
+      <div class="airStatus">
+        <div class="humidity">
+          <div class="upper">
+            <img src="./images/humidity.png" alt=""/>
+            <p class = "humidityValue">42%</p>
+          </div>
+          <div class="lower">
+              <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <div class="upper">
+            <img src="./images/wind.png" alt="" />
+            <p class="windSpeed">1.84 Km/Hr</p>
+          </div>
+          <div class="lower">
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Js file added Below -->
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/213e8901ea.js" crossorigin="anonymous"></script>
+  </body>
+</html>
