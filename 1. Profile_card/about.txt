@@ -1,0 +1,8 @@
+About
+A profile card displaying information about user, social media accounts.
+
+
+Learnings
+HTML, CSS --> Improved the flow, good practice in writing and defining proper classes and Id's.
+Use of Flexbox --> Increased Responsiveness, got to know various properties about Flexbox.
+Relative, Absolute positioning.
