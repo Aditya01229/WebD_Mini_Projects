@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Projects by Aditya</title>
+    <style>
+      button {
+        background: none;
+        border: none;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        height: 100%;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        width: 100;
+        color: white;
+    }
+    
+      body {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        background-image: url(./html-projects.jpeg);
+        /* background-repeat: no-repeat; */
+        background-size:cover;
+      }
+
+      body>div {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin: 20px;
+        margin-top: 30px;
+      }
+
+      .card {
+        flex: 1;
+        max-width: 150px;
+        height: 150px;
+        background-color: #ffffff20;
+        padding: 5px;
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>List of projects!</h1>
+    <div>
+      <div class="card">
+        <a href="./1. Profile_card/index.html">
+          <button>
+            <h2 id="projectName">1. Profile Card</h2>
+            <p>
+              A profile card displaying information about user, social media
+              accounts.
+            </p>
+          </button>
+        </a>
+      </div>
+      <div class="card">
+        <a href="./2. Weather_WebApp/index.html">
+          <button>
+            <h2 id="projectName">2. Weather_WebApp</h2>
+            <p>
+                A simple WebApp, giving Weather Status of the City searched by the user working on a API by OpenWeather.
+            </p>
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
